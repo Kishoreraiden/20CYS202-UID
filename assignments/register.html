@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>
+Registration
+</title>
+<style>
+body{
+        background-image: url("back2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vp;
+}
+*{
+        margin: 0;
+        padding: 0;
+      }
+	 
+</style>
+
+<link style = "border-radius: 50%" ; rel="icon"  href="X:\html\luffy.png">
+</head>
+<h1 style="color : white";><h1>
+
+<header>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+*{
+font-family: "Rubik",sans-serif;
+}
+.img
+{
+padding: 30px;
+}
+
+
+.logo
+{
+color : white;
+font-size: 50px;
+letter-spacing: 2px;
+margin-top: 45;
+padding-left: 80px;
+width: 250px;
+height: 70px
+}
+.span1{
+color: #A4123F;
+text-decoration: underline;
+}
+span{
+color: #A4123F;
+}
+nav
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+nav ul li
+{
+list-style-type: none;
+display: inline-block;
+padding: 10px 25px;
+margin-top: 35px;
+}
+nav ul li a
+{
+color: white;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 20px;
+
+}
+.ab
+{
+color: white;
+margin-bottom: px
+}
+
+
+</style>
+
+<div class="unknown">
+<nav>
+
+<img src="download.png" class="logo">
+<ul>
+<li><a href=""><span>Home<span></a></li>
+<li><a href=""><span>About me<span></a></li>
+<li><a href=""><span class="span1">Register<span></a></li>
+<li><a href=""><span>Contact</span></a></li>
+</ul> 
+</nav>
+</div>
+
+
+</header>
+<body>
+<style>	
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: .25rem
+  
+}
+.span2{
+font-size: 20px;
+color: #A4123F;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: darkred;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(1,1,1,1,2);
+  z-index: 2;
+  border-radius: .35rem;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 12px;
+  font-size: 12px;
+  background-color: #white;
+  text-decoration: none;
+  display: block;
+  border-radius: .25rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.abt{
+margin-top:130px;
+font-size: 20px;
+margin-left:100px;
+}
+.dotdiv5{
+                margin-top: -25px;
+                margin-left: 320px;
+                width: 200px;
+                
+            }
+.dot {
+                height: 10px;
+                width: 10px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                margin-left:10px
+            }
+
+.dotcolor{
+                background-color: #4BFFA5;
+            }
+@use postcss-preset-env {
+  stage: 0
+}
+.terms{
+color:white;
+font-size:14px;
+}
+
+
+
+
+input {
+  border: none;
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+  text-shadow: 2px px 	
+  
+}
+
+span{
+color:white;
+font-size:16px;
+}
+
+
+</style>
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+<div style="text-align: center; color: white; margin-top: 50px">
+<p style="color: white; font-size:40px;" class="span2">Register here!</p><br>
+</div>
+
+
+<div style="text-align: center; margin-top: 50">
+<form>
+  <input type="text" placeholder="First Name"> <input type="email" placeholder="Last Name"><br><br>
+  <input type="text" placeholder="Email Address">
+  <input type="text" placeholder="Mobile Number"><br><br>
+
+
+<td style="color:white; font-size:12px;"><span>Gender</span></td><br>
+<td>
+<input type="radio" name="Gender" value="Male" />
+<span>
+Male
+</span>
+<input type="radio" name="Gender" value="Female" />
+<span>
+Female
+</span>
+</td><br><br>
+  
+</form> 
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">No of Attendees.</button>
+<div id="myDropdown" class="dropdown-content">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+  </div>
+  </div><br><br>
+  <h3 style="color:white;">Upload your id proof:</h3>
+<form action="/action_page.php">
+
+  <input type="file" id="myfile" name="myfile"><br><br>
+
+</form>
+ <div class="terms">
+ <form>
+ <input type="checkbox" id="accept"	> Terms and conditions
+ </form>
+ </div> 
+<form>
+
+  <input type="submit" value="Register" style="background-color: #A4123F;"><br>
+</form><br>
+
+</div>
+</body>
+</html>
